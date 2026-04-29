@@ -1,0 +1,12 @@
+.location-card-map {
+  height:140px; background:var(--clr-bg-card); display:flex;
+  align-items:center; justify-content:center;
+}
+.location-map-placeholder { font-size:3rem; }
+.location-card-body { padding:1.25rem; }
+.location-card-name { font-size:1.1rem; font-weight:700; margin-bottom:0.35rem; }
+.location-card-addr { font-size:0.8rem; color:var(--clr-text-secondary); margin-bottom:0.75rem; line-height:1.5; }
+.location-card-detail {
+  display:flex; flex-direction:column; gap:0.35rem; font-size:0.8rem;
+  color:var(--clr-text-muted); margin-bottom:1rem;
+}

@@ -1,0 +1,19 @@
+.offer-card { position:relative; overflow:hidden; }
+.offer-accent {
+  position:absolute; top:0; left:0; width:4px; height:100%;
+  background:var(--offer-clr, var(--clr-primary));
+}
+.offer-body { padding:1.5rem 1.5rem 1.5rem 2rem; }
+.offer-title {
+  font-size:1.25rem; font-weight:800; margin-bottom:0.5rem;
+  color:var(--offer-clr, var(--clr-primary));
+}
+.offer-desc { font-size:0.875rem; color:var(--clr-text-secondary); margin-bottom:0.75rem; line-height:1.5; }
+.offer-validity { font-size:0.75rem; color:var(--clr-text-muted); display:block; margin-bottom:1rem; }
+.offer-action { display:flex; }
+.offer-code {
+  display:flex; align-items:center; gap:0.75rem; padding:0.5rem 1rem;
+  background:rgba(255,255,255,0.06); border-radius:var(--radius-md);
+  font-size:0.875rem; border:1px dashed rgba(255,255,255,0.15);
+}
+.offer-code strong { color:var(--clr-accent); letter-spacing:1px; }

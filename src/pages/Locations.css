@@ -1,0 +1,13 @@
+.locations-page { min-height:100vh; }
+.map-placeholder {
+  width:100%; height:300px; background:var(--clr-bg-surface);
+  border:1px solid rgba(255,255,255,0.06); border-radius:var(--radius-xl);
+  display:flex; align-items:center; justify-content:center; margin-bottom:2rem;
+}
+.map-inner { text-align:center; }
+.map-icon { font-size:4rem; display:block; margin-bottom:0.5rem; }
+.location-search { max-width:500px; margin:0 auto 2rem; }
+.locations-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  gap:1.5rem;
+}
